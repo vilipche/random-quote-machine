@@ -1,0 +1,27 @@
+html {
+    box-sizing: border-box;
+    height: 100%;
+}
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+/* 
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+} */

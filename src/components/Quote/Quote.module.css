@@ -1,0 +1,43 @@
+.Quote {
+    width: 500px;
+    height: auto;
+    margin: 0 auto;
+    padding: 50px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border: 1px solid grey;
+    background-color: cornsilk;
+}
+
+body {
+}
+
+.Quote > * {
+    padding: 20px;
+}
+
+.Button {
+    margin-left: auto;
+    padding: 5px;
+}
+
+.Text {
+    font-family: "Trebuchet MS";
+    font-size: 1.5em;
+}
+
+.Author {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 1.2em;
+}
+
+@media (max-width: 450px) {
+    .Quote {
+        width: 100%;
+        padding: 1em;
+    }
+}
